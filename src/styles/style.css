@@ -49,3 +49,19 @@ h1,h2,h3,h4,h5,h6{
 .logo-light > *{
     @apply pl-1 mb-3 text-dark-white_2 font-bold 
 }
+
+.text-block{
+    @apply relative w-64 py-1 px-3 cursor-pointer
+     before:content-[''] before:absolute before:left-0 before:top-0 
+     before:w-[3px] before:h-[45px] before:bg-primary-1
+     before:transition-all before:duration-300 
+     hover:before:h-full
+}
+
+.text-block > h4{
+    @apply text-lg pb-2 font-semibold leading-5 cursor-pointer
+}
+
+.text-block > p {
+    @apply font-quicksand text-dark-black_2 font-medium
+}
