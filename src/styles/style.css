@@ -20,27 +20,12 @@ h1,h2,h3,h4,h5,h6{
     @apply transition-all ease-out duration-200
 }
 
-.animation-b-border-primary{
-    @apply border-transparent border-b-2 hover:border-primary-1 transition-item-1
-}
-
-.animation-b-border-dark{
-    @apply border-transparent border-b-2 hover:border-dark-black_1 transition-item-1
-}
-
-.button-1{
-    @apply ml-auto px-5 py-1 lg:ml-0 lg:px-14 lg:py-2 border-2 border-primary-1 rounded-full text-primary-1 font-medium bg-dark-white_2 transition-item-2 font-quicksand hover:bg-primary-1 hover:text-white font-semibold
-}
-
-.button-2{
-    @apply w-32 h-10 lg:w-48 lg:h-14 rounded-full flex justify-center items-center text-white font-medium bg-primary-1 hover:bg-primary-2 transition-item-2 
-}
-
+/*? Logo */
 .logo{
-    @apply flex items-center text-primary-1 hover:text-primary-2 font-bold text-xl transition-item-2
+    @apply m-0 sm:ml-3 2xl:ml-11 text-2xl 2xl:text-4xl flex items-center text-primary-1 hover:text-primary-2 font-bold transition-item-2 
 }
 .logo > *{
-    @apply pl-1 mb-3 text-sm text-dark-black_1 font-bold 
+    @apply pl-1 mb-3 2xl:mb-5 text-sm 2xl:text-lg text-dark-black_1 font-bold 
 }
 
 .logo-light{
@@ -50,6 +35,27 @@ h1,h2,h3,h4,h5,h6{
     @apply pl-1 mb-3 text-dark-white_2 font-bold 
 }
 
+/*? Bottom Border */
+.animation-b-border-primary{
+    @apply border-transparent border-b-2 hover:border-primary-1 transition-item-1
+}
+.animation-b-border-dark{
+    @apply border-transparent border-b-2 hover:border-dark-black_1 transition-item-1
+}
+
+/*? Button */
+.button-1{
+    @apply ml-auto text-sm lg:text-base w-24 h-7 lg:w-32 lg:h-10 border-2 justify-center items-center border-primary-1 rounded-full text-primary-1 bg-dark-white_2 transition-item-2 font-quicksand hover:bg-primary-1 hover:text-white font-semibold
+}
+.button-2{
+    @apply w-32 h-10 lg:w-48 lg:h-14 rounded-full flex justify-center items-center text-white font-semibold bg-primary-1 hover:bg-primary-2 transition-item-2 
+}
+
+.burger{
+    @apply text-dark-black_1 hover:text-dark-black_2
+}
+
+/*? Text Block */
 .text-block{
     @apply relative w-64 py-1 px-3 cursor-pointer
      before:content-[''] before:absolute before:left-0 before:top-0 
@@ -57,11 +63,9 @@ h1,h2,h3,h4,h5,h6{
      before:transition-all before:duration-300 
      hover:before:h-full
 }
-
 .text-block > h4{
     @apply text-lg pb-2 font-semibold leading-5 cursor-pointer
 }
-
 .text-block > p {
     @apply font-quicksand text-dark-black_2 font-medium
 }

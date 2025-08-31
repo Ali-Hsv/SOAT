@@ -1,6 +1,11 @@
 import './styles/style.css'
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import {burgerClick} from "./scripts/burger";
+import {backClick} from "./scripts/burger";
+
+burgerClick();
+backClick();
 
 gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
 
@@ -32,4 +37,4 @@ if(ScrollTrigger.isTouch !== 1){
       }
     });
 
-}
+};
