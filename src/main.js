@@ -4,10 +4,10 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import {burgerClick} from "./scripts/burger";
 import {backClick} from "./scripts/burger";
 
+gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
+
 burgerClick();
 backClick();
-
-gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
 
 if(ScrollTrigger.isTouch !== 1){
     ScrollSmoother.create({

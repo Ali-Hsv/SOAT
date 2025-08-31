@@ -12,6 +12,10 @@ h1,h2,h3,h4,h5,h6{
     @apply cursor-default
 }
 
+.modal-open{
+    overflow: hidden;
+}
+
 .transition-item-1{
     @apply transition-all ease-out duration-100
 }
