@@ -4,7 +4,7 @@ export function burgerClick(){
     document.getElementById('burger').addEventListener('click', ()=>{
         document.getElementById('burger-menu').classList.remove('hidden');
         document.getElementById('burger-menu').classList.add('fixed');
-        document.querySelector('body').classList.add('modal-open');
+        document.querySelector('body').classList.add('overflow-hidden');
         gsap.fromTo('#burger-menu-nav',
             {
                 opacity: .5,
@@ -45,7 +45,7 @@ export function backClick(){
         setTimeout(()=>{
             document.getElementById('burger-menu').classList.remove('fixed');
             document.getElementById('burger-menu').classList.add('hidden');
-            document.querySelector('body').classList.remove('modal-open');
+            document.querySelector('body').classList.remove('overflow-hidden');
         }, 390);
     });
     

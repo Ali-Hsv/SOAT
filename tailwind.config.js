@@ -26,6 +26,10 @@ export default {
       fontFamily: {
         lexend: ['Lexend'],
         quicksand: ['Quicksand'],
+      },
+      screens: {
+        '2xxl': {'min': '1920px'},
+        '3xl': {'min-width': '2560px'},
       }
     },
   },

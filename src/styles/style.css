@@ -6,14 +6,11 @@
 *{
     margin: 0;
     padding: 0;
+    user-select: none;
 }
 
 h1,h2,h3,h4,h5,h6{
     @apply cursor-default
-}
-
-.modal-open{
-    overflow: hidden;
 }
 
 .transition-item-1{
@@ -25,12 +22,6 @@ h1,h2,h3,h4,h5,h6{
 }
 
 /*? Logo */
-.logo{
-    @apply m-0 sm:ml-3 2xl:ml-11 text-2xl 2xl:text-4xl flex items-center text-primary-1 hover:text-primary-2 font-bold transition-item-2 
-}
-.logo > *{
-    @apply pl-1 mb-3 2xl:mb-5 text-sm 2xl:text-lg text-dark-black_1 font-bold 
-}
 
 .logo-light{
     @apply flex items-center text-dark-white_1 hover:text-primary-2 font-bold text-xl transition-item-2
@@ -41,22 +32,10 @@ h1,h2,h3,h4,h5,h6{
 
 /*? Bottom Border */
 .animation-b-border-primary{
-    @apply border-transparent border-b-2 hover:border-primary-1 transition-item-1
+    @apply border-transparent  border-b 2xl:border-b-2 3xl:border-b-4 hover:border-primary-1 transition-item-1
 }
 .animation-b-border-dark{
-    @apply border-transparent border-b-2 hover:border-dark-black_1 transition-item-1
-}
-
-/*? Button */
-.button-1{
-    @apply ml-auto text-sm lg:text-base w-24 h-7 lg:w-32 lg:h-10 border-2 justify-center items-center border-primary-1 rounded-full text-primary-1 bg-dark-white_2 transition-item-2 font-quicksand hover:bg-primary-1 hover:text-white font-semibold
-}
-.button-2{
-    @apply w-32 h-10 lg:w-48 lg:h-14 rounded-full flex justify-center items-center text-white font-semibold bg-primary-1 hover:bg-primary-2 transition-item-2 
-}
-
-.burger{
-    @apply text-dark-black_1 hover:text-dark-black_2
+    @apply border-transparent  border-b 2xl:border-b-2 3xl:border-b-4 hover:border-dark-black_1 transition-item-1
 }
 
 /*? Text Block */

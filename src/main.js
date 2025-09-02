@@ -27,14 +27,46 @@ if(ScrollTrigger.isTouch !== 1){
 
         if (currentScroll > lastScroll) {
           // скроллим вниз
-          gsap.to("#head-div", { y: -100, duration: 0.4, ease: "power2.out" });
+          gsap.to("#head-div", { y: -200, duration: 0.6, ease: "power2.out" });
         } else {
           // скроллим вверх
-          gsap.to("#head-div", { y: 0, duration: 0.4, ease: "power2.out" });
+          gsap.to("#head-div", { y: 0, duration: 0.6, ease: "power2.out" });
         }
 
         lastScroll = currentScroll;
       }
     });
+
+    gsap.fromTo('.scroll-section', 
+        {
+			opacity: 1,
+		}, 
+		{
+			opacity: 0,
+			scrollTrigger: {
+				trigger: '.scroll-section',
+				start: 'center top',
+				end: 'bottom top',
+				scrub: true,
+				markers: true
+			}
+		}
+    );
+
+    gsap.fromTo('.scroll-text', 
+        {
+			opacity: 0,
+		}, 
+		{
+			opacity: 1,
+			scrollTrigger: {
+				trigger: '.scroll-text',
+				start: '200 bottom',
+				end: '100 200',
+				scrub: true,
+                markers: true
+			}
+		}
+    );
 
 };
