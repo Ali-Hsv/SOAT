@@ -46,7 +46,7 @@ if(ScrollTrigger.isTouch !== 1){
 				start: 'center top',
 				end: 'bottom top',
 				scrub: true,
-				markers: true
+				// markers: true
 			}
 		}
     );
@@ -62,7 +62,7 @@ if(ScrollTrigger.isTouch !== 1){
 				start: '200 bottom',
 				end: '100 200',
 				scrub: true,
-                markers: true
+                // markers: true
 			}
 		}
     );

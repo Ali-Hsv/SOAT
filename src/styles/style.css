@@ -32,7 +32,7 @@ h1,h2,h3,h4,h5,h6{
 /*? Text Block */
 .text-block{
     @apply relative 
-    w-28 sm:w-64 3xl:w-[400px] 2xxl:w-80
+    w-80 md:w-64 3xl:w-[400px] 2xxl:w-80
     py-1 px-3 cursor-pointer
     before:content-[''] before:absolute before:left-0 before:top-0 
     before:w-[3px] 3xl:before:w-[5px] before:h-[25px] sm:before:h-[45px] 3xl:before:h-[70px]
@@ -41,8 +41,8 @@ h1,h2,h3,h4,h5,h6{
     hover:before:h-full
 }
 .text-block > h4{
-    @apply text-xs sm:text-base lg:text-lg 2xxl:text-2xl 3xl:text-4xl pb-1 sm:pb-2 font-semibold leading-5 cursor-pointer
+    @apply text-sm sm:text-base lg:text-lg 2xxl:text-2xl 3xl:text-4xl pb-1 sm:pb-2 font-semibold leading-5 cursor-pointer
 }
 .text-block > p {
-    @apply text-[.5rem] sm:text-sm lg:text-base 2xxl:text-2xl 3xl:text-3xl font-quicksand text-dark-black_2 font-medium
+    @apply text-xs sm:text-sm lg:text-base 2xxl:text-2xl 3xl:text-3xl font-quicksand text-dark-black_2 font-medium
 }
