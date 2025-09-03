@@ -7,8 +7,8 @@
   	<title>Vite App</title>
 	<script src="/SOAT/scripts/ScrollSmoother.min.js"></script>
   	<script src="./src/scripts/ScrollSmoother.min.js" defer></script>
-  <script type="module" crossorigin src="/SOAT/assets/index-bVi77ik9.js"></script>
-  <link rel="stylesheet" crossorigin href="/SOAT/assets/index-BNBZ03Gp.css">
+  <script type="module" crossorigin src="/SOAT/assets/index-WdjyAqvN.js"></script>
+  <link rel="stylesheet" crossorigin href="/SOAT/assets/index-D7dOGvVC.css">
 </head>
 <body class=" text-dark-black_1 leading-relaxed antialiased">
 
@@ -113,7 +113,7 @@
 		<div class="content">
 			<main class="bg-dark-white_2 w-dvw flex items-center justify-between flex-col overflow-hidden">
 				<!--todo: Start -->
-				<section class="scroll-section w-dvw lg:h-dvh flex justify-start flex-col">
+				<section class="scroll-section w-dvw lg:h-dvh md:pb-[100px] lg:pb-[800px] flex justify-start flex-col">
 					<div class="mb-10 sm:mb-36 ml-5 lg:ml-11 3xl:ml-48 pt-14 sm:pt-36 3xl:pt-72">
 						<h1 class="
 						w-4/5 sm:w-3/5 2xl:w-1/2 3xl:w-2/3 
@@ -122,7 +122,7 @@
 						font-quicksand font-normal">
 						Bring back the joy of reading 	SOAT</h1>
 						<h3 class="
-						w-1/2 lg:w-3/12 2xxl:w-2/6 3xl:w-1/3 
+						w-1/2 md:w-2/5 lg:w-3/12 2xxl:w-2/6 3xl:w-1/3 
 						text-sm sm:text-base lg:text-xl 2xxl:text-3xl 3xl:text-5xl 
 						leading-5 
 						font-lexend text-primary-1">
@@ -160,13 +160,16 @@
 				</section>
 
 				<!--todo: Why SOAT? -->
-				<section class="sm:mt-14 w-full bg-dark-white_1 flex flex-col justify-center items-center">
-					<h1 class="scroll-text mt-7 mb-3 font-quicksand text-4xl font-medium text-center">Why SOAP-App? How to enjoy your feed?</h1>
-					<h3 class="scroll-text text-xl font-lexend text-primary-1">Be ready for an amazing experience.</h3>
-					<div class="h-dvh w-full grid grid-rows-3">
+				<section class="sm:pt-14 w-full bg-dark-white_1 flex flex-col justify-center items-center">
+					<h1 class="scroll-text 
+					sm:mb-3 3xl:mb-6
+					font-quicksand font-medium text-center
+					text-lg md:text-4xl 2xxl:text-6xl 3xl:text-8xl">Why SOAP-App? How to enjoy your feed?</h1>
+					<h3 class="scroll-text text-sm md:text-xl 2xxl:text-4xl 3xl:text-5xl font-lexend text-primary-1 3xl:mb-5">Be ready for an amazing experience.</h3>
+					<div class="hidden lg:grid h-dvh w-full grid-rows-3 3xl:px-40">
 						<!--? Top -->
-						<div class="px-3 lg:px-56 flex justify-between items-center">
-							<div class="text-block">
+						<div class="px-40 2xl:px-56 flex justify-between items-center">
+							<div data-lag="0.1" class="text-block">
 								<h4>Kill The Spam</h4>
 								<p>
 									Use Newsletter email to
@@ -175,7 +178,7 @@
 									more time for a joyful reading.
 								</p>
 							</div>
-							<div class="text-block">
+							<div data-lag="0.2" class="text-block">
 								<h4>One-Click Unsubscribe</h4>
 								<p>
 									Don’t like what you’re reading? 
@@ -186,8 +189,8 @@
 						</div>
 
 						<!--? Center -->
-						<div class="px-3 lg:px-20 flex justify-between items-center">
-							<div class="text-block">
+						<div class="px-14 2xl:px-20 flex justify-between items-center">
+							<div data-lag="0.12" class="text-block">
 								<h4>Be part of SOAP community</h4>
 								<p>
 									Join top experts for a chat on 
@@ -195,7 +198,7 @@
 									m-atter to you.
 								</p>
 							</div>
-							<div class="text-block">
+							<div data-lag="0.08" class="text-block">
 								<h4>Control Your Feed </h4>
 								<p>
 									Group SOAP into folders, 
@@ -207,8 +210,8 @@
 						</div>
 
 						<!--? Bottom -->
-						<div class="px-3 lg:px-56 flex justify-between items-center">
-							<div class="text-block">
+						<div class="px-40 2xl:px-56 flex justify-between items-center">
+							<div data-lag="0.06" class="text-block">
 								<h4>Discover SOAP</h4>
 								<p>
 									Browse through your interests 
@@ -216,7 +219,7 @@
 									Inspire yourself!
 								</p>
 							</div>
-							<div class="text-block">
+							<div data-lag="0.1" class="text-block">
 								<h4>Enjoy SOAP</h4>
 								<p>
 									No ads and spam in this app. 
@@ -226,7 +229,79 @@
 							</div>
 						</div>
 					</div>
-					<div class="absolute"></div>
+
+					<!--todo: Phone Section -->
+
+					<div class="lg:hidden h-[600px] w-full flex flex-shrink-0 flex-col justify-between items-center mt-5 sm:mt-10 sm:pl-8 pb-32">
+						<!--? Top -->
+						<div class="px-3 flex justify-between items-start">
+							<div data-lag="0.1" class="text-block">
+								<h4>Kill The Spam</h4>
+								<p>
+									Use Newsletter email to
+									subscribe to SOAP. Win
+									the battle against spam. Earn
+									more time for a joyful reading.
+								</p>
+							</div>
+							<div data-lag="0.2" class="text-block">
+								<h4>One-Click Unsubscribe</h4>
+								<p>
+									Don’t like what you’re reading? 
+									Remove the feed and never see 
+									it again. 
+								</p>
+							</div>
+							<div data-lag="0.12" class="text-block">
+								<h4>Be part of SOAP community</h4>
+								<p>
+									Join top experts for a chat on 
+									the topics and trends that 
+									m-atter to you.
+								</p>
+							</div>
+						</div>
+
+						<!--? Bottom -->
+						<div class="px-3 flex justify-between items-center">
+							<div data-lag="0.08" class="text-block">
+								<h4>Control Your Feed </h4>
+								<p>
+									Group SOAP into folders, 
+									create labels, quickly mark as 
+									read and update the 
+									appearance. 
+								</p>
+							</div>
+							<div data-lag="0.06" class="text-block">
+								<h4>Discover SOAP</h4>
+								<p>
+									Browse through your interests 
+									and find the ultimate content. 
+									Inspire yourself!
+								</p>
+							</div>
+							<div data-lag="0.1" class="text-block">
+								<h4>Enjoy SOAP</h4>
+								<p>
+									No ads and spam in this app. 
+									Take reading and sharing to the 
+									next level with Letterbox. 
+								</p>
+							</div>
+						</div>
+					</div>
+					<div data-lag="0.04" class="absolute
+					w-[270px] h-[270px]
+					xl:w-[500px] xl:h-[510px]
+					2xxl:w-[780px] 2xxl:h-[790px]
+					3xl:w-[1000px] 3xl:h-[1030px]
+					"><img src="/SOAT/assets/image-2--voe7Wrh.svg" class="w-full h-full object-cover 
+					-mt-8
+					sm:mt-0 mr-0 
+					lg:mt-10
+					xl:mt-15 
+					2xxl:mt-36" alt=""></div>
 				</section>
 
 				<!--todo: Why SOAT? -->
