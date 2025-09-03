@@ -53,11 +53,12 @@ h1,h2,h3,h4,h5,h6{
 
 .text-block-2{
     @apply
+    relative
     px-0 2xxl:px-5 3xl:px-12 
     py-10 2xxl:py-16 3xl:py-24 
     w-[250px] lg:w-[300px] xl:w-[400px] 2xxl:w-[500px] 3xl:w-[600px] 
     bg-dark-white_1 rounded-lg
-    flex flex-col justify-center items-center gap-5 pb-16 lg:pb-10
+    flex flex-col justify-center items-center gap-5
 }
 .text-block-2 > h3{
     @apply 
@@ -75,12 +76,38 @@ h1,h2,h3,h4,h5,h6{
     @apply
     z-0 
     absolute
-    mt-[205px] ml-[-140px]
-    md:mt-64 md:-ml-40
-    lg:mt-[200px] 
-    xl:mt-36 xl:-ml-12
-    2xxl:mt-44 2xxl:-ml-32
-    3xl:mt-[365px] 3xl:-ml-10
-    w-[400px] h-[400px]
-    2xxl:w-[550px] 2xxl:h-[550px]
+    right-0 bottom-0
+    2xxl:w-full 2xxl:h-full
+}
+
+.text-block-3{
+    @apply
+    relative pb-24 
+    w-[250px] h-[180px]
+    xl:w-[390px] xl:h-[200px]
+    2xl:w-[440px] 2xl:h-[200px]
+    2xxl:w-[560px] 2xxl:h-[250px]
+    3xl:w-[800px] 3xl:h-[300px]
+    flex justify-between flex-col items-start
+    mb-24 xl:mb-12
+}
+.text-block-3 > p{
+    @apply 
+    mb-12 box-border text-sm sm:text-base lg:text-lg 2xxl:text-3xl 3xl:text-4xl font-semibold text-dark-black_1 z-10
+}
+.user > img{
+    @apply w-[60px] sm:w-[100px]
+}
+.user > h3{
+    @apply text-xs sm:text-sm lg:text-base 2xxl:text-xl 3xl:text-3xl font-semibold text-dark-black_1
+}
+.user > h4{
+    @apply text-xs lg:text-base 2xxl:text-lg 3xl:text-2xl
+}
+.comma-2{
+    @apply
+    z-0 
+    absolute
+    right-0 bottom-0
+    2xxl:w-full 2xxl:h-full
 }
