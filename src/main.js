@@ -21,15 +21,13 @@ if(ScrollTrigger.isTouch !== 1){
 
     ScrollTrigger.create({
       start: 0,
-      end: "max", // вся длина документа
+      end: "max",
       onUpdate: (self) => {
         let currentScroll = self.scroll();
 
         if (currentScroll > lastScroll) {
-          // скроллим вниз
           gsap.to("#head-div", { y: -200, duration: 0.6, ease: "power2.out" });
         } else {
-          // скроллим вверх
           gsap.to("#head-div", { y: 0, duration: 0.6, ease: "power2.out" });
         }
 
