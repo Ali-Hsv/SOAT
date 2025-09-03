@@ -12,7 +12,7 @@ export default {
           2: '#14B86E',
           3: '#94DD8B',
         },
-        secondary: '#780116',
+        secondary: '#FFE3B3',
         error: '#F01445',
         dark: {
           black_1: '#25282B',

@@ -50,3 +50,37 @@ h1,h2,h3,h4,h5,h6{
 .text-block > p {
     @apply text-xs sm:text-sm lg:text-base 2xxl:text-2xl 3xl:text-3xl font-quicksand text-dark-black_2 font-medium
 }
+
+.text-block-2{
+    @apply
+    px-0 2xxl:px-5 3xl:px-12 
+    py-10 2xxl:py-16 3xl:py-24 
+    w-[250px] lg:w-[300px] xl:w-[400px] 2xxl:w-[500px] 3xl:w-[600px] 
+    bg-dark-white_1 rounded-lg
+    flex flex-col justify-center items-center gap-5 pb-16 lg:pb-10
+}
+.text-block-2 > h3{
+    @apply 
+    text-primary-1 text-sm sm:text-base lg:text-xl 2xxl:text-3xl 3xl:text-5xl font-semibold
+}
+.text-block-2 > p{
+    @apply 
+    box-border px-8 text-sm sm:text-base lg:text-lg 2xxl:text-2xl 3xl:text-4xl pb-1 sm:pb-2 font-semibold text-dark-black_1 z-10
+}
+.agenus{
+    @apply 
+    w-48 h-20
+}   
+.comma{
+    @apply
+    z-0 
+    absolute
+    mt-[205px] ml-[-140px]
+    md:mt-64 md:-ml-40
+    lg:mt-[200px] 
+    xl:mt-36 xl:-ml-12
+    2xxl:mt-44 2xxl:-ml-32
+    3xl:mt-[365px] 3xl:-ml-10
+    w-[400px] h-[400px]
+    2xxl:w-[550px] 2xxl:h-[550px]
+}
