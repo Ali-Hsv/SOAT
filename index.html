@@ -111,7 +111,7 @@
 
 	<div class="wrapper">
 		<div class="content">
-			<main class="bg-dark-white_2 w-dvw flex items-center justify-between flex-col overflow-hidden">
+			<main class="bg-dark-white_2 w-dvw flex items-center justify-between flex-col relative overflow-hidden">
 				<!--todo: Start -->
 				<section class="scroll-sectio w-dvw lg:h-dvh pb-[70px] md:pb-[100px] lg:pb-[800px] flex justify-start flex-col">
 					<div class="mb-10 sm:mb-36 ml-5 lg:ml-11 3xl:ml-48 pt-14 sm:pt-36 3xl:pt-72">
@@ -140,22 +140,24 @@
 							hover:bg-primary-2
 							rounded-full font-semibold transition-item-2"><span>TRY FOR FREE</span></div></a>
 					</div>
-					<div data-lag="0.04" class="scroll-section
-					w-[270px] h-[270px]
-        			md:w-[500px] md:h-[480px]
-        			lg:w-[580px] lg:h-[560px] 
-        			xl:w-[660px] xl:h-[630px] 
-        			2xl:w-[780px] 2xl:h-[760px]
-        			2xxl:w-[1000px] 2xxl:h-[980px]
-					3xl:w-[1200px] 3xl:h-[1180px] 
-        			absolute overflow-hidden block
+					<div data-lag="0.04"  class="absolute overflow-hidden
 					top-24 -right-10
         			md:top-24 md:-right-2 
         			2xl:top-15 2xl:right-16
         			2xxl:top-20 2xxl:right-20
-					3xl:top-56 3xl:right-24	
-					">
-						<img src="/SOAT/assets/image-1-DOgYRJN-.svg" class="w-full h-full object-cover" alt="">
+					3xl:top-56 3xl:right-24">
+						<div class="scroll-section
+						w-[270px] h-[270px]
+        				md:w-[500px] md:h-[480px]
+        				lg:w-[580px] lg:h-[560px] 
+        				xl:w-[660px] xl:h-[630px] 
+        				2xl:w-[780px] 2xl:h-[760px]
+        				2xxl:w-[1000px] 2xxl:h-[980px]
+						3xl:w-[1200px] 3xl:h-[1180px] 
+        				relative overflow-hidden
+						">
+							<img src="/SOAT/assets/image-1-DOgYRJN-.svg" class="w-full h-full object-cover block" alt="">
+						</div>
 					</div>
 				</section>
 
