@@ -27,10 +27,10 @@ h1,h2,h3,h4,h5,h6{
 
 /*? Bottom Border */
 .animation-b-border-primary{
-    @apply border-transparent  border-b 2xl:border-b-2 3xl:border-b-4 hover:border-primary-1 transition-item-1
+    @apply border-transparent border-b 2xl:border-b-2 3xl:border-b-4 hover:border-primary-1 transition-item-1
 }
 .animation-b-border-dark{
-    @apply border-transparent  border-b 2xl:border-b-2 3xl:border-b-4 hover:border-dark-black_1 transition-item-1
+    @apply border-transparent border-b 2xl:border-b-2 3xl:border-b-4 hover:border-dark-black_1 transition-item-1 
 }
 
 /*? Text Block */
